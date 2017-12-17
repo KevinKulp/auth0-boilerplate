@@ -1,0 +1,49 @@
+{
+  "name": "auth0-boilerplate",
+  "version": "1.0.0",
+  "description": "An auth0 boilerplate for angular5",
+  "scripts": {
+    "build": "rimraf dist && webpack --progress",
+    "watch": "npm run build -- --watch",
+    "server": "webpack-dev-server --inline --progress --port 3000 --content-base src",
+    "start": "npm run server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^5.1.1",
+    "@angular/cdk": "^5.0.1",
+    "@angular/common": "^5.1.0",
+    "@angular/compiler": "^5.1.0",
+    "@angular/core": "^5.1.0",
+    "@angular/flex-layout": "^2.0.0-beta.12",
+    "@angular/forms": "^5.1.0",
+    "@angular/http": "^5.1.0",
+    "@angular/material": "^5.0.1",
+    "@angular/platform-browser": "^5.1.0",
+    "@angular/platform-browser-dynamic": "^5.1.0",
+    "@angular/router": "^5.1.1",
+    "angular": "^1.6.7",
+    "auth0-js": "^8.12.1",
+    "core.js": "^0.4.2",
+    "ie-shim": "^0.1.0",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.5.0",
+    "tslib": "^1.8.1",
+    "zone.js": "^0.8.18"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "angular2-router-loader": "^0.3.4",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^3.1.2",
+    "css-loader": "^0.26.0",
+    "html-webpack-plugin": "^2.28.0",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.4",
+    "to-string-loader": "^1.1.4",
+    "typescript": "^2.6.2",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  min-height: 100vh;
+}
+
+.full-body{
+  display: flex;
+  flex-direction: column;
+  min-height: 94vh;
+}
+
+main{
+  flex: 1;
+  margin: 30px 20px;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
