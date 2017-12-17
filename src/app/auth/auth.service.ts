@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Router } from '@angular/router';
 import * as auth0 from 'auth0-js';
 
 @Injectable()
@@ -14,5 +13,5 @@ export class AuthService {
       scope: 'openid'
     });
 
-    constructor(public router: Router) {}
+    //constructor(public router: Router) {}
 }

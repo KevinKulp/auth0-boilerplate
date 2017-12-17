@@ -7,5 +7,10 @@ import { Router } from '@angular/router';
   templateUrl: './home.component.html',
 })
 export class HomeComponent {
-  constructor(public router: Router) {}
+
+  //Works:
+  constructor(){}
+
+  //Doesn't work:
+  //constructor(public router: Router) {}
 }
