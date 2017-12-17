@@ -10,9 +10,9 @@ export class AuthService {
       domain: 'x',
       responseType: 'token id_token',
       audience: 'x',
-      redirectUri: 'http://localhost:3000/#/dashboard',
+      redirectUri: 'http://localhost:3000/#/',
       scope: 'openid'
     });
 
-    //constructor(public router: Router) {}
+    constructor(public router: Router) {}
 }

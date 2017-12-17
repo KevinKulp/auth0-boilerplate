@@ -7,7 +7,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-//import { AuthService } from './auth/auth.service';
+import { AuthService } from './auth/auth.service';
 
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import {FlexLayoutModule} from '@angular/flex-layout';
@@ -44,7 +44,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     HttpModule,
     RouterModule.forRoot(rootRouterConfig, { useHash: true })
   ],
-//  providers: [ AuthService ],
+  providers: [ AuthService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {
